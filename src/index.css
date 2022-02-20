@@ -72,3 +72,43 @@ h2 {
   top: 0;
   left: 0;
 }
+
+#landsMap {
+    width: 500%;
+    height: 500%;
+    padding: 5px;
+    font-size: 16px;
+    border: 3px;
+    margin: 20px;
+    -moz-column-fill: balance;
+    -moz-column-count: 100;
+    -moz-column-gap: 20px;
+    -webkit-column-fill: balance;
+    -webkit-column-count: 100;
+    -webkit-column-gap: 20px;
+    column-fill: balance;
+    column-count: 100;
+    column-gap: 20px;
+    line-height: 1.5;
+}
+
+#lands{
+    overflow:scroll;
+    height: 600px;
+}
+
+.land{
+  width: 40px;
+  height: 40px;
+}
+
+#landBtn {
+  width: 40px;
+  height: 40px;
+  background-color: #800040;
+  border-radius: 50%;
+  color: white;
+  margin: 0 1rem;
+  overflow: hidden;
+  text-align: center;
+}
