@@ -30,8 +30,9 @@ function Grid() {
     if ((k >= 11 && k <= 12) || (k >= 8 && k <= 9)) {
       for (let i = 0; i < 20; i++) {
         for (let j = 0; j < 20; j++) {
+          let id = k * 400 + i * 20 + (j + 1);
           map.push(
-            new Land(k + ";" + i * 20 + ";" + j, "park", i, j, "", null)
+            new Land(id, "park", i, j, "", null)
           );
         }
       }

@@ -16,7 +16,7 @@ function WriteLand(props)  {
 
 
   return (
-    <div class="land">
+    <div className="land">
       <button
         id="landBtn"
         onClick={deleteHandler}

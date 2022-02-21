@@ -98,13 +98,17 @@ h2 {
 }
 
 .land{
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
+}
+
+.map {
+  display: none;
 }
 
 #landBtn {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   background-color: #800040;
   border-radius: 50%;
   color: white;
