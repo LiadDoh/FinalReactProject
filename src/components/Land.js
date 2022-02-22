@@ -34,8 +34,6 @@ class Land {
   constructor(id, type, x, y, owner, price) {
     this.id = id;
     this.type = type;
-    this.x = x;
-    this.y = y;
     this.price = price;
     this.owner = owner;
     this.color = this.setColorByType();
