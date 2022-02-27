@@ -1,3 +1,4 @@
+import React,{ useState } from "react";
 import WriteLand from "./Land";
 const { Land } = require("./Land.js");
 

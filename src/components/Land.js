@@ -1,6 +1,6 @@
 import Backdrop from "./Backdrop";
 import Modal from "./Modal";
-import { useState } from "react";
+import React,{ useState } from "react";
 
 
 function WriteLand(props)  {
